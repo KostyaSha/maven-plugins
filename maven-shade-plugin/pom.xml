@@ -30,7 +30,7 @@
   </parent>
 
   <artifactId>maven-shade-plugin</artifactId>
-  <version>3.0-SNAPSHOT</version>
+  <version>3.0-kostyasha</version>
   <packaging>maven-plugin</packaging>
 
   <name>Apache Maven Shade Plugin</name>
