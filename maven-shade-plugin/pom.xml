@@ -44,19 +44,20 @@
   </prerequisites>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-shade-plugin</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/plugins/trunk/maven-shade-plugin</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/plugins/trunk/maven-shade-plugin</url>
+    <connection>scm:git:ssh://github.com/KostyaSha/maven-plugins.git</connection>
+    <developerConnection>scm:git:ssh://github.com/KostyaSha/maven-plugins.git</developerConnection>
+    <url>https://github.com/KostyaSha/maven-plugins</url>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/MSHADE</url>
   </issueManagement>
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</url>
-    </site>
+    <repository>
+      <id>bintray</id>
+      <url>https://api.bintray.com/maven/kostyasha/maven-plugins/maven-shade-plugin</url>
+    </repository>
   </distributionManagement>
 
   <properties>
